@@ -21,7 +21,7 @@ public class UserTests {
 	public void test(){
 		List<User> userList = userDao.select(null);
 		System.out.println(userList);     
-		     
+		            
 		User user = new User();
 		user.setNickname("lisi");
 //		userDao.insert(user);
